@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+   color: #ff6d04;
+}
+
+a:hover {
+   color: black;
+}
+body{
+   background-color: powderblue;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+   height: 14vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: white;
+   margin-bottom: 0px;
+}
+
+.logo a {
+   font-size: 38px;
+   letter-spacing: 1px;
+   font-weight: 800;
+   color: red;
+}
+
+.menu ul li {
+   list-style-type: none;
+   color: blue;
+   display: inline-block;
+   margin: 0 20px;
+}
+
+.menu ul li a {
+   font-size: 17px;
+   letter-spacing: 2px;
+}
+
+.menu ul li.about a {
+   color: black;
+}
+
+.btn a {
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background: green;
+   color: white;
+}
+
+.btn a:hover {
+   border: 2px solid black;
+   background: green;
+   color: white;
+}
+
+h1 {
+   margin-bottom: 10px;
+}
+p{
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: small;
+   font-weight: lighter;
+   margin-bottom: 20px;
+
+}
+.contact-container{
+   width: 80%; 
+   margin: 50px auto ;
+}
+.input-box{
+   background: white;
+   display: flex;
+}
+.input-box-right
+{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.input-box-right h3 {
+   margin-bottom: 10px;
+   color: blue;
+   font-weight: 600;
+}
+.input-box-left{
+   flex-basis: 40%;
+   padding: 40px;
+   background: seashell;
+}
+.input-box-left h3 {
+   margin-bottom: 10px;
+   font-weight: 600;
+
+}
+.input-box-left p {
+   display: flex;
+   font-weight: 500;
+   font-size: 17px;
+
+}
+
+form
+{
+   display: flex;
+   flex-direction: column;
+   width: 24rem;
+   gap: 1rem;
+}
+input,select,textarea{
+   padding: 1.4rem;
+   background: transparent;
+   border: 1px solid black;
+}
+textarea{
+   height: 6rem;
+}
+button{
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background:violet;
+   color: white;
+}

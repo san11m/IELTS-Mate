@@ -1,0 +1,106 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+a{
+   text-decoration: none;
+   color: #ff6d04;
+}
+
+a:hover {
+   color: black;
+}
+body{
+   font-family: 'Josefin Sans', sans-serif;
+}
+header{
+   height: 100vh;
+   width: 100%;
+   background-color: white;
+   position: relative;
+}
+nav{
+   height: 14vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: white;
+   margin-bottom: 0px;
+}
+.logo a{
+   font-size: 38px;
+   letter-spacing: 1px;
+   font-weight: 800;
+   color: red;
+}
+
+.menu ul li{
+   list-style-type: none;
+   color: blue;
+   display: inline-block;
+   margin: 0 20px;
+}
+.menu ul li a{
+   font-size: 17px;
+   letter-spacing: 2px;
+}
+.menu ul li.about a {
+   color: black;
+}
+.btn a{
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background: green;
+   color: white;
+}
+.btn a:hover {
+   border: 2px solid black;
+   background: green;
+   color: white;
+}
+img{
+   width: 650px;
+   height: 400px;
+   margin-right: 20px;
+}
+.content{
+   width: 1200px;
+   max-width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-left: 20px;
+   margin-top: 40px;
+}
+.text {
+   margin-left: 90px;
+}
+.text h1{
+   color: green;
+   margin-bottom: 25px;
+   font-size: 45px;
+}
+.text h3 {
+   color: black;
+   margin-bottom: 17px;
+   font-size: 20px;
+}
+.text p {
+   color: black;
+   margin-bottom: 50px;
+   font-size: 15px;
+   letter-spacing: .5px;
+   line-height: 26px;
+   margin-right: 50px;
+}
+.btn2{
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background: orange;
+   color: white;
+
+}

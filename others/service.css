@@ -1,0 +1,81 @@
+* {
+   padding: 0;
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: #ff6d04;
+}
+
+a:hover {
+   color: black;
+}
+
+body {
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+   height: 100vh;
+   width: 100%;
+   background-color: white;
+   position: relative;
+}
+
+nav {
+   height: 14vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: white;
+   margin-bottom: 0px;
+}
+
+.logo a {
+   font-size: 38px;
+   letter-spacing: 1px;
+   font-weight: 800;
+   color: red;
+}
+
+.menu ul li {
+   list-style-type: none;
+   color: blue;
+   display: inline-block;
+   margin: 0 20px;
+}
+
+.menu ul li a {
+   font-size: 17px;
+   letter-spacing: 2px;
+}
+
+.menu ul li.about a {
+   color: black;
+}
+
+.btn a {
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background: green;
+   color: white;
+}
+
+.btn a:hover {
+   border: 2px solid black;
+   background: green;
+   color: white;
+}
+.service-heading{
+   text-align: center;
+   margin-top: 100px;
+   margin-bottom: 50px;
+
+}
+.container{
+   display: flex;
+   justify-content: space-evenly;
+}

@@ -1,0 +1,146 @@
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   border: 0;
+   box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+   list-style: none;
+   text-decoration: none;
+}
+a {
+   text-decoration: none;
+   color: #ff6d04;
+}
+
+a:hover {
+   color: black;
+}
+
+body {
+   background-color: white;
+   height: 100vh;
+   font-family: 'Josefin Sans', sans-serif;
+   display: grid;
+   place-items: center;
+
+}
+
+nav {
+   height: 14vh;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: white;
+   margin-bottom: 0px;
+}
+
+.logo a {
+   font-size: 38px;
+   letter-spacing: 1px;
+   font-weight: 800;
+   color: red;
+}
+
+.menu ul li {
+   list-style-type: none;
+   color: blue;
+   display: inline-block;
+   margin: 0 20px;
+}
+
+.menu ul li a {
+   font-size: 17px;
+   letter-spacing: 2px;
+}
+
+.menu ul li.about a {
+   color: black;
+}
+
+.btn a {
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background: green;
+   color: white;
+}
+
+.btn a:hover {
+   border: 2px solid black;
+   background: green;
+   color: white;
+}
+section{
+   padding: 80px 18%;
+}
+.home{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background:url(./image/reg.jpg);
+   background-size: cover;
+   background-position: center;
+   display: grid;
+   align-items: center;
+   grid-template-columns: repeat(1, 1fr);
+
+}
+.home-text h1{
+   font-size: 70px;
+   line-height: 1.2;
+   color: black;
+   letter-spacing: 4px;
+}
+
+.home-text h3 {
+   font-size: 40px;
+   line-height: 1.2;
+   color: black;
+   letter-spacing: 2px;
+   margin-bottom: 20px;
+}
+.input-box-value {
+   flex-basis: 100%;
+}
+
+.input-box-value h2 {
+   margin-top: 20px;
+   margin-bottom: 30px;
+   color: black;
+   font-weight: 600;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   width: 24rem;
+   gap: 1rem;
+}
+
+input,
+select,
+textarea {
+   padding: 1.4rem;
+   background: transparent;
+   border: 1px solid black;
+}
+
+textarea {
+   height: 7rem;
+}
+
+button {
+   width: 8rem;
+   padding: 1rem;
+   cursor: pointer;
+   background: green;
+   color: white;
+   margin-bottom: 40px;
+}
+img{
+   width: 650px;
+   height: 400px;
+   margin-right: 20px;
+}
